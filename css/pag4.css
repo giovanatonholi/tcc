@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to right, rgb(198, 132, 224), rgb(94, 201, 169));
+    min-height: 100vh;
+    margin: 15px;
+    font-family: "Kanit", sans-serif;
+}
+
+.img1-pag4 {
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.img2-pag4 {
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.img3-pag4 {
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.img4-pag4 {
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 30px;
+    margin-left: 850px;
+    font-family: "Teko", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container-navbar a {
+    text-decoration: none;
+}
+
+.titulo-navbar {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.logo {
+    max-width: 90px;
+    max-height: 90px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.container-circulos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.container-frases {
+    font-size: 30px;
+}
+
+.container-frases p {
+    margin-left: 200px;
+}
+
+.conteudo-rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 32px;
+    border-top: 0.4px solid #000000;
+}
+
+.rodapewhats {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 50px;
+    height: auto;
+}
+
+.rodapeinsta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.rodapeemail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 50px;
+    height: auto;
+}
+
+.logos-rodape {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
